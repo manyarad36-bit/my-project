@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop Phones</a>
+            <a href="3.html">Checkout</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+    <h1>Create Your Account</h1>
+    <form action="/submit-signup" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
